@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        
+        if(a>=0 && a<=127 && b>=0 && b<=127)
+            if(b == a <<2)
+            {
+                System.out.print("Yes");
+            }
+            else
+            {
+                System.out.print("No");
+            }
+        else
+        {
+            System.out.print("Invalid Input");
+        }
+            
+    }
+}
